@@ -7,7 +7,7 @@ class TestThing(unittest.TestCase):
         self.assertEqual(a.f(), 1)
 
     def test_b(self):
-        self.assertEqual(b.g(), 2)
+        self.assertEqual(b.g(), 3)
 
 if __name__ == '__main__':
     unittest.main()
